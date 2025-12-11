@@ -1,0 +1,9 @@
+/* Project color tokens (from provided palette) */
+:root {
+  --navy-900: #002146;
+  --navy-800: #004797;
+  --blue-600: #0083E0;
+  --cyan-400: #01F3FF;
+  --ink-700: #333C23;
+  --white: #FFFFFF;
+}
