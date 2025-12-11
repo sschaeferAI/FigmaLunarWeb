@@ -1,28 +1,22 @@
-# Lunar Analytics — Landing Wireframe
+# Lunar Analytics Website
 
-This repository contains a **static HTML/CSS wireframe** and assets to recreate the homepage layout shown in the provided mockup.
+This project contains the multi-page website for Lunar Analytics, generated from the 2025 presentation deck.
 
-## Contents
-- `index.html` — semantic structure matching the mockup
-- `styles.css` — gradient hero, pill navigation, layout and type scale
-- `palette.css` — CSS variables for the provided color palette
-- `assets/lunar-logo.svg` — simple SVG wordmark/arc used in the hero and header
-- `assets/linkedin.svg` — LinkedIn icon
-- `wireframe.png` — greyscale diagram of the layout
-- `.github/workflows/pages.yml` — optional GitHub Pages deploy workflow
+## Pages
+- index.html — Homepage
+- about.html — About Us
+- solutions.html — Solutions
+- partners.html — Our Partners
+- expertise.html — Why Lunar
+- demo.html — Request a Demo
 
-## Run locally
-No build step required.
-```bash
-# open in browser
-open index.html
-```
+## Structure
+- css/styles.css — Global styles
+- components/ — Reusable HTML components
+- assets/ — Logos and images
 
-## Deploy to GitHub Pages
-1. Push this repo to GitHub.
-2. Enable Pages with "GitHub Actions" as the source.
-3. Use the provided workflow in `.github/workflows/pages.yml`.
+## How to Run
+Open any HTML file in a browser, or serve the folder using a local web server.
 
-## Notes
-- Color palette tokens use: `#002146`, `#004797`, `#0083E0`, `#01F3FF`, `#333C23`, `#FFFFFF`.
-- Replace `assets/lunar-logo.svg` with your production logo when available.
+## How to Edit
+Use any code editor (VS Code recommended). All styles are in css/styles.css.
